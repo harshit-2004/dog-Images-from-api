@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class=" flex text-lg justify-center my-10" >
+        <span>
+            Dogs Images of different breed
+        </span>
+    </div>
+    <form action="getdata" id="image" class="flex justify-center mx-5 my-10 bg-lime-100 h-20 w-auto rounded-lg border-2">
+        <span class="justify-center text-lg my-5 ml-5 w-80 text-neutral-400">Select the dog breed</span>
+        <select name=" dogsbreed" id="given-breed" class="justify-start">
+        </select>
+        <button class="block w-full text-sm text-slate-700
+        hover:bg-violet-100" id="getheimage" type="submit">Get Image</button>
+    </form>
+    <div class=" flex justify-center">
+        <img class ="rounded-lg h-96 w-96"id="dog-img" src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11614.jpg" alt="">
+    </div>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">         </script>
+    <script src="index.js"></script>
+</body>
+</html>
