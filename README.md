@@ -20,5 +20,6 @@ Welcome to the **Dog Images from API** project! This application fetches adorabl
 - **Responsive Design:** Ensures a seamless experience across various devices and screen sizes.
 
 
-**GitHub Repository:** ElliottLandsborough/dog-ceo-api
-**Official Website:** dog.ceo/dog-api/
+**GitHub Repository:** [ElliottLandsborough/dog-ceo-api](https://github.com/ElliottLandsborough/dog-ceo-api)
+
+**Official Website:** [dog.ceo/dog-api/](https://dog.ceo/dog-api/)
